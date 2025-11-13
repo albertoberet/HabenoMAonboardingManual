@@ -79,14 +79,15 @@
         }
 
         .section {
-            margin-bottom: 40px;
-            padding: 15px;
-            border-radius: 8px;
-            background-color: #ffffff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            width: 100%;
-            box-sizing: border-box;
-        }
+    margin: 40px auto; /* centrar horizontalmente */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1200px; /* limita el ancho y evita estrechamientos */
+    box-sizing: border-box;
+}
 
         button.tip-btn {
             background-color: #d69150;
@@ -106,7 +107,14 @@
             margin-bottom: 10px;
             border-radius: 5px;
         }
-
+.section table, .section pre {
+    width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+       .section h2, .section h3, .section h4, .section p {
+    width: 100%;
+} 
         table {
             width: 100%;
             border-collapse: collapse;
@@ -2232,6 +2240,7 @@ Date: [dd/mm/yyyy]
 </body>
 
 </html>
+
 
 
 
