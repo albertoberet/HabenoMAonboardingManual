@@ -11,76 +11,84 @@
             color: #2d3b5a;
             line-height: 1.6;
             margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 0 20px;
+            box-sizing: border-box;
         }
-        
+
         img {
-    max-width: 100% !important; 
-    height: auto!important;
-    display: block;
+            max-width: 100%;
+            height: auto;
+            display: block;
         }
-        
-         .logo-container {
-    width: 450px;
-    height: 150px; 
-    margin: 20px auto; 
-    padding: 0;
-    box-sizing: border-box; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    overflow: hidden;         
+
+        .logo-container {
+            width: 450px;
+            height: 150px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
         }
-        
+
         .logo-image {
-            max-width: 100%; 
+            max-width: 100%;
             max-height: 100%;
             width: auto;
             height: auto;
         }
-       
+
         h1, h2, h3, h4 {
             color: #2d3b5a;
-        }
-        
-        h1 {
-            text-align: center;
             margin-top: 20px;
         }
-        
+
+        h1 {
+            text-align: center;
+        }
+
         h2 {
             border-bottom: 3px solid #d69150;
             padding-bottom: 5px;
-            margin-top: 40px;
             font-size: 1.8em;
+            text-align: center;
+            margin-top: 40px;
         }
-        
+
         h3 {
             color: #9d4f1e;
-            margin-top: 20px;
             font-size: 1.4em;
+            margin-top: 20px;
         }
-        
+
         h4 {
             margin-top: 15px;
         }
-        
-           .checklist, .script, .advice {
+
+        .checklist, .script, .advice {
             background-color: #f0ece5;
             border-left: 5px solid #9d4f1e;
             padding: 10px;
             margin: 10px 0;
         }
-        
+
         .section {
             margin-bottom: 40px;
             padding: 15px;
             border-radius: 8px;
             background-color: #ffffff;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 100%;
+            box-sizing: border-box;
         }
-        
-            button.tip-btn {
+
+        button.tip-btn {
             background-color: #d69150;
             color: #f8f8f1;
             border: none;
@@ -89,8 +97,8 @@
             cursor: pointer;
             margin: 5px 0;
         }
-        
-        div.tip-content {
+
+        .tip-content {
             display: none;
             background: #f0ece5;
             padding: 10px;
@@ -98,70 +106,54 @@
             margin-bottom: 10px;
             border-radius: 5px;
         }
-                
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 10px 0;
         }
-        
+
         th, td {
             border: 1px solid #d69150;
             padding: 8px;
             text-align: center;
         }
-        
+
         th {
             background-color: #d69150;
             color: #f8f8f1;
         }
-               
-        .case-client {
-            margin-bottom: 30px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-        }
-        
-        .tip {
-            background-color: #e8f4f8;
-            border-left: 4px solid #2d3b5a;
-            padding: 10px;
-            margin: 10px 0;
-        }
-        
+
         pre {
+            width: 100%;
             background-color: #f5f5f5;
             padding: 15px;
             border-radius: 5px;
             overflow-x: auto;
             white-space: pre-wrap;
+            box-sizing: border-box;
         }
-          
+
         * {
             transform: none !important;
         }
-        
+
         body {
             text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
-        
+
         /* Responsive */
         @media screen and (max-width: 768px) {
             body {
                 font-size: 16px;
-                padding: 0 10px;
             }
-            
             h2 {
                 font-size: 1.5em;
             }
-            
             h3 {
                 font-size: 1.2em;
             }
-            
             table {
                 font-size: 0.9em;
             }
@@ -169,82 +161,85 @@
     </style>
 </head>
 <body>
-    <div class="logo-container">
-    <img src="images/logo habeno.png" alt="Habeno logo" class=""logo-image">
-    </div>
-    
-    <h1>Habeno Spanish Mortgage Guide</h1>
-    <p><strong>By Alberto Beret</strong> Version Nov.2025</p>
-    
-    <h2 style="text-align:center;"> Onboarding Junior Mortgage Advisor – Habeno, Marbella</h2>
-    <p><strong>Reports to:</strong> Team Manager</p>
+    <div class="container">
+        <div class="logo-container">
+            <img src="images/logo habeno.png" alt="Habeno logo" class="logo-image">
+        </div>
 
-<h3>Role Overview</h3>
-<p>As a Mortgage Advisor at Habeno, you will play a key role in helping international clients navigate the complex process of securing a mortgage in Spain. Your expertise and guidance will ensure a smooth, transparent, and accessible home-buying experience, while contributing to Habeno’s growth and profitability.</p>
+        <h1>Habeno Spanish Mortgage Guide</h1>
+        <p style="text-align:center;"><strong>By Alberto Beret</strong> – Version Nov.2025</p>
 
-<p>We seek proactive, sales-driven professionals with a positive attitude, collaborative spirit, and a focus on achieving results. This role requires someone passionate about helping clients realize their dream of owning property abroad and committed to delivering exceptional service.</p>
+        <div class="section">
+            <h2>Onboarding Junior Mortgage Advisor – Habeno, Marbella</h2>
+            <p><strong>Reports to:</strong> Team Manager</p>
 
-<h3>Key Responsibilities</h3>
-<ul>
-    <li><strong>Customer Consultation:</strong> Provide personalized mortgage advice and ensure clients understand their options.</li>
-    <li><strong>Self-Ownership & Responsibility:</strong> Manage your client cases end-to-end with accountability and high service standards.</li>
-    <li><strong>Team Collaboration:</strong> Work closely with colleagues and support functions to achieve the best outcomes for clients.</li>
-    <li><strong>Tailored Solutions:</strong> Analyze client financial situations and recommend suitable mortgage products aligned with their goals.</li>
-    <li><strong>Compliance & Regulations:</strong> Ensure all activities meet industry and legal standards, staying updated on international mortgage products.</li>
-    <li><strong>Customer Relationship Management:</strong> Build and maintain long-term relationships with clients, partners, and lenders.</li>
-</ul>
+            <h3>Role Overview</h3>
+            <p>As a Mortgage Advisor at Habeno, you will play a key role in helping international clients navigate the complex process of securing a mortgage in Spain. Your expertise and guidance will ensure a smooth, transparent, and accessible home-buying experience, while contributing to Habeno’s growth and profitability.</p>
 
-<h3>Cultural Fit & Attitude</h3>
-<ul>
-    <li><strong>Customer-Centric Approach:</strong> Prioritize client needs and make their experience seamless and enjoyable.</li>
-    <li><strong>Positive Mindset:</strong> Approach challenges with optimism, focusing on solutions.</li>
-    <li><strong>Commitment to Team Success:</strong> Collaborate to support both clients and colleagues.</li>
-    <li><strong>Proactivity:</strong> Identify issues and opportunities in advance to keep clients ahead in the mortgage process.</li>
-</ul>
+            <p>We seek proactive, sales-driven professionals with a positive attitude, collaborative spirit, and a focus on achieving results. This role requires someone passionate about helping clients realize their dream of owning property abroad and committed to delivering exceptional service.</p>
 
-<h3>Core Values</h3>
-<ul>
-    <li><strong>Professionalism:</strong> Deliver high-quality advice and maintain expertise in all client interactions.</li>
-    <li><strong>Accountability:</strong> Take ownership of your client cases and drive them to completion with integrity.</li>
-    <li><strong>Customer Focus:</strong> Tailor mortgage solutions to each client’s unique situation, always prioritizing their interests.</li>
-    <li><strong>Commitment:</strong> Demonstrate dedication to achieving the best outcomes for clients and the team.</li>
-</ul>
+            <h3>Key Responsibilities</h3>
+            <ul>
+                <li><strong>Customer Consultation:</strong> Provide personalized mortgage advice and ensure clients understand their options.</li>
+                <li><strong>Self-Ownership & Responsibility:</strong> Manage your client cases end-to-end with accountability and high service standards.</li>
+                <li><strong>Team Collaboration:</strong> Work closely with colleagues and support functions to achieve the best outcomes for clients.</li>
+                <li><strong>Tailored Solutions:</strong> Analyze client financial situations and recommend suitable mortgage products aligned with their goals.</li>
+                <li><strong>Compliance & Regulations:</strong> Ensure all activities meet industry and legal standards, staying updated on international mortgage products.</li>
+                <li><strong>Customer Relationship Management:</strong> Build and maintain long-term relationships with clients, partners, and lenders.</li>
+            </ul>
 
-<h3>Key Performance Indicators (KPIs)</h3>
+            <h3>Cultural Fit & Attitude</h3>
+            <ul>
+                <li><strong>Customer-Centric Approach:</strong> Prioritize client needs and make their experience seamless and enjoyable.</li>
+                <li><strong>Positive Mindset:</strong> Approach challenges with optimism, focusing on solutions.</li>
+                <li><strong>Commitment to Team Success:</strong> Collaborate to support both clients and colleagues.</li>
+                <li><strong>Proactivity:</strong> Identify issues and opportunities in advance to keep clients ahead in the mortgage process.</li>
+            </ul>
 
-<h4>Hard KPIs (Quantitative)</h4>
-<ul>
-    <li>Conversion from Pre-Approval to Plan Selected</li>
-    <li>Plan Selected to Verified</li>
-    <li>Verified to Approved</li>
-    <li>Approved to Signed</li>
-</ul>
+            <h3>Core Values</h3>
+            <ul>
+                <li><strong>Professionalism:</strong> Deliver high-quality advice and maintain expertise in all client interactions.</li>
+                <li><strong>Accountability:</strong> Take ownership of your client cases and drive them to completion with integrity.</li>
+                <li><strong>Customer Focus:</strong> Tailor mortgage solutions to each client’s unique situation, always prioritizing their interests.</li>
+                <li><strong>Commitment:</strong> Demonstrate dedication to achieving the best outcomes for clients and the team.</li>
+            </ul>
 
-<h4>Soft KPIs (Qualitative)</h4>
-<ul>
-    <li>Customer Satisfaction: Deliver attentive service, timely responses, and positive client experiences.</li>
-    <li>Presence at the Office: Be engaged and available to support teamwork and communication.</li>
-    <li>Attitude: Maintain a proactive, positive approach, especially in challenging situations.</li>
-    <li>Core Values: Consistently embody Habeno’s principles in daily work.</li>
-</ul>
-    <h3 style="text-align:center;"><strong>Comprehensive training for Junior Mortgage Advisor guiding non-resident clients buying in Spain</h3>
+            <h3>Key Performance Indicators (KPIs)</h3>
+            <h4>Hard KPIs (Quantitative)</h4>
+            <ul>
+                <li>Conversion from Pre-Approval to Plan Selected</li>
+                <li>Plan Selected to Verified</li>
+                <li>Verified to Approved</li>
+                <li>Approved to Signed</li>
+            </ul>
 
-    <div>
-     <p>Welcome to the <strong>Comprehensive Training for Junior Mortgage Advisors</strong>, a program designed to prepare you to expertly guide <strong>non-resident clients</strong> through the complex process of purchasing property in Spain.</p>
+            <h4>Soft KPIs (Qualitative)</h4>
+            <ul>
+                <li>Customer Satisfaction: Deliver attentive service, timely responses, and positive client experiences.</li>
+                <li>Presence at the Office: Be engaged and available to support teamwork and communication.</li>
+                <li>Attitude: Maintain a proactive, positive approach, especially in challenging situations.</li>
+                <li>Core Values: Consistently embody Habeno’s principles in daily work.</li>
+            </ul>
+        </div>
 
-    <p>This course provides a <strong>step-by-step foundation</strong> in Spanish mortgage procedures, documentation requirements, communication best practices, and client management strategies tailored for international buyers. You will learn how to coordinate effectively with banks, lawyers, real estate agents, and internal teams—ensuring a smooth experience for clients from initial inquiry to completion.</p>
+        <div class="section">
+            <h2>Comprehensive Training for Junior Mortgage Advisor</h2>
+            <p>Welcome to the <strong>Comprehensive Training for Junior Mortgage Advisors</strong>, a program designed to prepare you to expertly guide <strong>non-resident clients</strong> through the complex process of purchasing property in Spain.</p>
 
-    <h3>By the end of this training, you will:</h3>
-    <ul>
-        <li>Understand the <strong>full mortgage process</strong> for non-resident buyers in Spain.</li>
-        <li>Gain practical knowledge of <strong>bank criteria, documentation standards, and compliance requirements</strong>.</li>
-        <li>Learn how to identify potential issues early and <strong>manage each stage efficiently</strong> using professional tools and checklists.</li>
-        <li>Develop the <strong>communication and coordination skills</strong> needed to represent Habeno’s values of transparency, efficiency, and trust.</li>
-    </ul>
+            <p>This course provides a <strong>step-by-step foundation</strong> in Spanish mortgage procedures, documentation requirements, communication best practices, and client management strategies tailored for international buyers. You will learn how to coordinate effectively with banks, lawyers, real estate agents, and internal teams—ensuring a smooth experience for clients from initial inquiry to completion.</p>
 
-    <p>Whether you are new to the mortgage sector or transitioning from another role, this course will equip you with the <strong>essential knowledge, confidence, and structure</strong> to support your clients successfully and contribute to Habeno’s mission of making property financing in Spain seamless for international buyers.</p>
-</div>
-      <div class="section" id="fundamentals">
+            <h3>By the end of this training, you will:</h3>
+            <ul>
+                <li>Understand the <strong>full mortgage process</strong> for non-resident buyers in Spain.</li>
+                <li>Gain practical knowledge of <strong>bank criteria, documentation standards, and compliance requirements</strong>.</li>
+                <li>Learn how to identify potential issues early and <strong>manage each stage efficiently</strong> using professional tools and checklists.</li>
+                <li>Develop the <strong>communication and coordination skills</strong> needed to represent Habeno’s values of transparency, efficiency, and trust.</li>
+            </ul>
+
+            <p>Whether you are new to the mortgage sector or transitioning from another role, this course will equip you with the <strong>essential knowledge, confidence, and structure</strong> to support your clients successfully and contribute to Habeno’s mission of making property financing in Spain seamless for international buyers.</p>
+        </div>
+
+        <div class="section" id="fundamentals">
         <h2 style="text-align:center;">I. NON-NEGOTIABLE FUNDAMENTALS (The Core Rules)</h2>
 
          <h3>Q1. LTV & Capital Cushion – The 40–45% Rule</h3>
@@ -2237,6 +2232,7 @@ Date: [dd/mm/yyyy]
 </body>
 
 </html>
+
 
 
 
