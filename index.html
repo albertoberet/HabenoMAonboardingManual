@@ -67,7 +67,23 @@
             object-fit: cover;           /* Ajusta la imagen al contenedor sin deformarla */
             display: block;
         }
+        .logo-container {
+    width: 200px;  /* Ajusta según necesites */
+    height: auto;  /* Altura automática para mantener proporción */
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
+.logo-image {
+    max-width: 100%;  /* Nunca excede el ancho del contenedor */
+    max-height: 100%; /* Nunca excede la altura del contenedor */
+    width: auto;      /* Mantiene proporción */
+    height: auto;     /* Mantiene proporción */
+    display: block;
+}
         /* --- Estilos responsive --- */
         @media screen and (max-width: 768px) {
             .content-wrapper {
@@ -2149,6 +2165,7 @@ Date: [dd/mm/yyyy]
 </body>
 
 </html>
+
 
 
 
