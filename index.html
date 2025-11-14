@@ -20,22 +20,32 @@
             padding: 0 20px;
             box-sizing: border-box;
         }
+.content-wrapper {
+    display: flex;               /* Coloca texto e imagen en fila */
+    align-items: center;         /* Centra verticalmente el contenido */
+    justify-content: space-between; /* Separa texto e imagen */
+    gap: 20px;                   /* Espacio entre texto e imagen */
+}
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .img-container {
-    width: 450px;
+.text {
+    flex: 1;                     /* Ocupa todo el espacio disponible a la izquierda */
+}
+
+.img-container {
+    width: 450px;                 /* Tamaño fijo de la imagen */
     height: 150px;
-    float: right;            /* 👉 Envía la imagen a la derecha */
-    margin: 0 0 20px 20px;   /* Espacio con el texto */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
         /* --- CORRECCIÓN DEL TAMAÑO DEL LOGO --- */
         .logo-container {
             width: 450px;  /* Reducido de 450px */
@@ -2247,6 +2257,7 @@ Date: [dd/mm/yyyy]
 </body>
 
 </html>
+
 
 
 
