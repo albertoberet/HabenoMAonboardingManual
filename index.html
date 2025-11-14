@@ -104,25 +104,36 @@
 </head>
 <body>
     <div class="container">
+        <!-- Logo -->
         <div class="logo-container">
             <img src="images/logo habeno.png" alt="Habeno logo" class="logo-image">
         </div>
-<div class="content-wrapper">
-        <h1>Habeno Spanish Mortgage Guide</h1>
-        <p style="text-align:center;"><strong>By Alberto Beret</strong> – Version Nov.2025</p>
 
+        <!-- Bloque principal con título y autor -->
         <div>
-            <h2>Onboarding Junior Mortgage Advisor – Habeno, Marbella</h2>
-            <p><strong>Reports to:</strong> Team Manager</p>
+            <h1>Habeno Spanish Mortgage Guide</h1>
+            <p style="text-align:center;"><strong>By Alberto Beret</strong> – Version Nov.2025</p>
+        </div>
 
-            <h3>Role Overview</h3>
-            <p>As a Mortgage Advisor at Habeno, you will play a key role in helping international clients navigate the complex process of securing a mortgage in Spain. Your expertise and guidance will ensure a smooth, transparent, and accessible home-buying experience, while contributing to Habeno’s growth and profitability.</p>
+        <!-- BLOQUE: Role Overview con imagen a la derecha -->
+        <div class="content-wrapper">
+            <div class="text">
+                <h2>Onboarding Junior Mortgage Advisor – Habeno, Marbella</h2>
+                <p><strong>Reports to:</strong> Team Manager</p>
 
-            <p>We seek proactive, sales-driven professionals with a positive attitude, collaborative spirit, and a focus on achieving results. This role requires someone passionate about helping clients realize their dream of owning property abroad and committed to delivering exceptional service.</p>
+                <h3>Role Overview</h3>
+                <p>As a Mortgage Advisor at Habeno, you will play a key role in helping international clients navigate the complex process of securing a mortgage in Spain. Your expertise and guidance will ensure a smooth, transparent, and accessible home-buying experience, while contributing to Habeno’s growth and profitability.</p>
+
+                <p>We seek proactive, sales-driven professionals with a positive attitude, collaborative spirit, and a focus on achieving results. This role requires someone passionate about helping clients realize their dream of owning property abroad and committed to delivering exceptional service.</p>
+            </div>
+
             <div class="img-container">
-        <img src="images/ROLE.jepg" alt="Role" class="img">
-    </div>
-            
+                <img src="images/ROLE.jpg" alt="Role" class="img">
+            </div>
+        </div>
+
+        <!-- BLOQUE: Key Responsibilities -->
+        <div>
             <h3>Key Responsibilities</h3>
             <ul>
                 <li><strong>Customer Consultation:</strong> Provide personalized mortgage advice and ensure clients understand their options.</li>
@@ -167,6 +178,7 @@
             </ul>
         </div>
 
+        <!-- BLOQUE: Comprehensive Training -->
         <div>
             <h2>Comprehensive Training for Junior Mortgage Advisor</h2>
             <p>Welcome to the <strong>Comprehensive Training for Junior Mortgage Advisors</strong>, a program designed to prepare you to expertly guide <strong>non-resident clients</strong> through the complex process of purchasing property in Spain.</p>
@@ -184,40 +196,39 @@
             <p>Whether you are new to the mortgage sector or transitioning from another role, this course will equip you with the <strong>essential knowledge, confidence, and structure</strong> to support your clients successfully and contribute to Habeno’s mission of making property financing in Spain seamless for international buyers.</p>
         </div>
 
+        <!-- BLOQUE: Non-Negotiable Fundamentals -->
         <div>
-        <h2 style="text-align:center;">I. NON-NEGOTIABLE FUNDAMENTALS (The Core Rules)</h2>
+            <h2 style="text-align:center;">I. NON-NEGOTIABLE FUNDAMENTALS (The Core Rules)</h2>
 
-         <h3>Q1. LTV & Capital Cushion – The 40–45% Rule</h3>
-        <p><strong>Principle:</strong> Spanish banks finance 60–70% of the lower of purchase price or appraisal. Clients must provide the remaining 30–40% plus ~10–15% for taxes and fees.</p>
-        <p>Spanish banks typically finance <strong>between 60% and 70%</strong> of the <strong>lower value</strong> between the purchase price and the official appraisal (tasación). This means that if the property is valued lower than the agreed purchase price, the loan amount will be calculated based on the appraisal figure.</p>
-        
-        <p>As a result, clients must contribute the remaining <strong>30–40%</strong> of the property value from their own funds. In addition to this contribution, they should also budget approximately <strong>10–15%</strong> extra to cover <strong>associated taxes, notary and registry fees, legal costs, and bank expenses</strong>.</p>
-        
-        <p>This structure ensures that buyers demonstrate financial stability and commitment to the purchase while protecting banks from overexposure to market fluctuations. Junior advisors should always explain this clearly to clients early in the process to avoid misunderstandings about the total funds required for completion.</p>
-        <div class="advice">
-            - Always calculate total cash required, including taxes, not just the down payment.<br>
-            - Advise clients to maintain a currency buffer (5–10%) if funds are in foreign currency.<br>
-            - Prepare clients for immediate bridging if appraisal is lower than purchase price.
+            <h3>Q1. LTV & Capital Cushion – The 40–45% Rule</h3>
+            <p><strong>Principle:</strong> Spanish banks finance 60–70% of the lower of purchase price or appraisal. Clients must provide the remaining 30–40% plus ~10–15% for taxes and fees.</p>
+            <p>Spanish banks typically finance <strong>between 60% and 70%</strong> of the <strong>lower value</strong> between the purchase price and the official appraisal (tasación). This means that if the property is valued lower than the agreed purchase price, the loan amount will be calculated based on the appraisal figure.</p>
+            <p>As a result, clients must contribute the remaining <strong>30–40%</strong> of the property value from their own funds. In addition to this contribution, they should also budget approximately <strong>10–15%</strong> extra to cover <strong>associated taxes, notary and registry fees, legal costs, and bank expenses</strong>.</p>
+            
+            <div class="advice">
+                - Always calculate total cash required, including taxes, not just the down payment.<br>
+                - Advise clients to maintain a currency buffer (5–10%) if funds are in foreign currency.<br>
+                - Prepare clients for immediate bridging if appraisal is lower than purchase price.
+            </div>
+
+            <div class="checklist">
+                ✅ Verify client liquid funds.<br>
+                ✅ Calculate taxes and fees.<br>
+                ✅ Prepare LTV vs cash illustration.<br>
+                ✅ Recommend currency buffer for non-EUR funds.
+            </div>
+
+            <div class="script">
+                "We can finance up to 70% of the property's value. To cover the remaining amount plus taxes, you will need approximately 40–45% of the purchase price in cash."
+            </div>
+
+            <button class="tip-btn" onclick="toggleTip('tipQ1')">Tips & Examples</button>
+            <div id="tipQ1" class="tip-content">
+                <strong>Example 1 – US client:</strong> Buying €400,000 apartment. Max bank loan 70% = €280,000. Down payment €120,000 + taxes €48,000 → total cash €168,000 (~42%).<br><br>
+                <strong>Example 2 – UK client:</strong> Buying €250,000 villa. Max loan 65% = €162,500. Down payment €87,500 + taxes €30,000 → total €117,500 (~47%).<br><br>
+                <strong>Example 3 – Sweden client:</strong> Buying €500,000 townhouse. Max loan 70% = €350,000. Down payment €150,000 + taxes €60,000 → total €210,000 (~42%).
+            </div>
         </div>
-
-        <div class="checklist">
-            ✅ Verify client liquid funds.<br>
-            ✅ Calculate taxes and fees.<br>
-            ✅ Prepare LTV vs cash illustration.<br>
-            ✅ Recommend currency buffer for non-EUR funds.
-        </div>
-
-        <div class="script">
-            "We can finance up to 70% of the property's value. To cover the remaining amount plus taxes, you will need approximately 40–45% of the purchase price in cash."
-        </div>
-
-        <button class="tip-btn" onclick="toggleTip('tipQ1')">Tips & Examples</button>
-        <div id="tipQ1" class="tip-content">
-            <strong>Example 1 – US client:</strong> Buying €400,000 apartment. Max bank loan 70% = €280,000. Down payment €120,000 + taxes €48,000 → total cash €168,000 (~42%).<br><br>
-            <strong>Example 2 – UK client:</strong> Buying €250,000 villa. Max loan 65% = €162,500. Down payment €87,500 + taxes €30,000 → total €117,500 (~47%).<br><br>
-            <strong>Example 3 – Sweden client:</strong> Buying €500,000 townhouse. Max loan 70% = €350,000. Down payment €150,000 + taxes €60,000 → total €210,000 (~42%).
-        </div>
-
         <h3>Q2. Debt-to-Income (DTI) – Avoiding the Silent Deal Killer</h3>
         <p><strong>Principle:</strong> DTI must remain below 30–35% of net monthly income. Exceeding 35% triggers bank rejection.</p>
         <p>The Debt-to-Income (DTI) ratio is a critical factor for Spanish banks when assessing mortgage applications. It must typically remain below <strong>30–35%</strong> of the client’s net monthly income to be considered safe and manageable.</p>
@@ -2165,6 +2176,7 @@ Date: [dd/mm/yyyy]
 </body>
 
 </html>
+
 
 
 
